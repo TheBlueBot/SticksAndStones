@@ -13230,3 +13230,142 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.10.08-16.44.00:277][298]LogSavePackage: Moving 'D:/Work/Github/SticksAndStones/SticksAndStones/Saved/WorldGrid3AC4DA5C4EB1188D8D6693AAAA580AB0.tmp' to 'D:/Work/Github/SticksAndStones/SticksAndStones/Content/BluePrints/WorldGrid.uasset'
 [2022.10.08-16.44.00:291][298]AssetCheck: New page: Asset Save: WorldGrid
 [2022.10.08-16.44.00:291][298]LogContentValidation: Display: Validating Blueprint /Game/BluePrints/WorldGrid.WorldGrid
+[2022.10.08-16.44.26:267][645]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2022.10.08-16.44.26:270][645]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Base_World" FILE="D:/Work/Github/SticksAndStones/SticksAndStones/Saved/Autosaves/Game/Base_World_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.10.08-16.44.26:281][645]LogSavePackage: Moving 'D:/Work/Github/SticksAndStones/SticksAndStones/Saved/Base_World_Auto1DC9CB1D04B8C8FA26BB986AF6BFD8C15.tmp' to 'D:/Work/Github/SticksAndStones/SticksAndStones/Saved/Autosaves/Game/Base_World_Auto1.umap'
+[2022.10.08-16.44.26:282][645]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Base_World' took 0.038
+[2022.10.08-16.44.26:282][645]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.038
+[2022.10.08-16.44.28:790][931]LogSlate: Window 'WorldGrid' being destroyed
+[2022.10.08-16.44.53:765][770]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/BluePrints/Survivors/Survivor2.Survivor2
+[2022.10.08-16.44.53:811][770]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.EpicQuadPanorama_CC+EV1', its maximum texture size has been explicitly set to 512.
+[2022.10.08-16.44.53:882][770]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/SunsetAmbientCubemap.SunsetAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2022.10.08-16.44.56:067][944]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2022.10.08-16.44.56:067][944]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.08-16.44.57:345][ 77]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/Survivors/Survivor1.Survivor1
+[2022.10.08-16.45.00:556][374]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/Survivors/Survivor.Survivor
+[2022.10.08-16.45.21:787][826]LogTemp: Repeating last play command: Selected Viewport
+[2022.10.08-16.45.21:792][826]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.10.08-16.45.21:793][826]LogPlayLevel: [PlayLevel] Compiling Survivor before play...
+[2022.10.08-16.45.21:885][826]LogUObjectHash: Compacting FUObjectHashTables data took   7.31ms
+[2022.10.08-16.45.21:885][826]LogPlayLevel: PlayLevel: Blueprint regeneration took 92 ms (1 blueprints)
+[2022.10.08-16.45.21:885][826]PIE: New page: PIE session: Base_World (8 Oct 2022, 18:45:21)
+[2022.10.08-16.45.21:885][826]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Base_World
+[2022.10.08-16.45.21:888][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002603s)
+[2022.10.08-16.45.21:889][826]LogAIModule: Creating AISystem for world Base_World
+[2022.10.08-16.45.21:889][826]LogPlayLevel: PIE: World Init took: (0.000926s)
+[2022.10.08-16.45.21:889][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Base_World.Base_World to /Game/UEDPIE_0_Base_World.Base_World (0.003632s)
+[2022.10.08-16.45.21:933][826]LogUObjectHash: Compacting FUObjectHashTables data took   4.67ms
+[2022.10.08-16.45.21:933][826]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2022.10.08-16.45.21:933][826]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.08-16.45.21:933][826]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.08-16.45.21:933][826]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.08-16.45.21:933][826]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.08-16.45.21:933][826]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.08-16.45.21:933][826]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.10.08-16.45.21:933][826]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.08-16.45.21:933][826]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.08-16.45.21:934][826]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.08-16.45.21:934][826]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.08-16.45.21:934][826]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.08-16.45.21:934][826]LogAudioMixer: Display: Initializing audio mixer.
+[2022.10.08-16.45.21:938][826]LogAudioMixer: Display: 0: FrontLeft
+[2022.10.08-16.45.21:938][826]LogAudioMixer: Display: 1: FrontRight
+[2022.10.08-16.45.21:943][826]LogAudioMixer: Display: Using Audio Device Headphones (Soundcore Life Q30 Stereo)
+[2022.10.08-16.45.21:943][826]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.08-16.45.21:943][826]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.08-16.45.21:943][826]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.08-16.45.21:943][826]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.10.08-16.45.21:943][826]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.10.08-16.45.21:943][826]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.10.08-16.45.21:944][826]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.10.08-16.45.21:944][826]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.10.08-16.45.21:944][826]LogInit: FAudioDevice initialized.
+[2022.10.08-16.45.21:944][826]LogAudio: Display: Audio Device (ID: 8) registered with world 'Base_World'.
+[2022.10.08-16.45.21:973][826]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.08-16.45.21:973][826]LogLoad: Game class is 'GameModeBase'
+[2022.10.08-16.45.21:974][826]LogWorld: Bringing World /Game/UEDPIE_0_Base_World.Base_World up for play (max tick rate 0) at 2022.10.08-17.45.21
+[2022.10.08-16.45.21:974][826]LogWorld: Bringing up level for play took: 0.000629
+[2022.10.08-16.45.21:974][826]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2022.10.08-16.45.21:976][826]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.10.08-16.45.22:680][826]PIE: Server logged in
+[2022.10.08-16.45.22:680][826]PIE: Play in editor total start time 0.888 seconds.
+[2022.10.08-16.45.27:040][314]LogSlate: Window 'SticksAndStones Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.10.08-16.45.27:047][314]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Base_World
+[2022.10.08-16.45.27:089][314]LogWorld: UWorld::CleanupWorld for Base_World, bSessionEnded=true, bCleanupResources=true
+[2022.10.08-16.45.27:109][314]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.08-16.45.27:122][314]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.08-16.45.27:136][314]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.08-16.45.27:165][314]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.10.08-16.45.27:166][314]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.10.08-16.45.27:198][314]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2022.10.08-16.45.27:217][315]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2022.10.08-16.45.34:025][115]LogEditorViewport: Clicking on Actor (LMB): Survivor1_C (Survivor1)
+[2022.10.08-16.45.57:908][700]BlueprintLog: New page: Compile Survivor1
+[2022.10.08-16.45.58:042][700]LogUObjectHash: Compacting FUObjectHashTables data took   5.34ms
+[2022.10.08-16.45.58:232][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Survivors/Survivor1" FILE="D:/Work/Github/SticksAndStones/SticksAndStones/Content/BluePrints/Survivors/Survivor1.uasset" SILENT=true
+[2022.10.08-16.45.58:242][715]LogSavePackage: Moving 'D:/Work/Github/SticksAndStones/SticksAndStones/Saved/Survivor19261CF3646CC3BA207A2348971317F83.tmp' to 'D:/Work/Github/SticksAndStones/SticksAndStones/Content/BluePrints/Survivors/Survivor1.uasset'
+[2022.10.08-16.45.58:255][715]AssetCheck: New page: Asset Save: Survivor1
+[2022.10.08-16.45.58:255][715]LogContentValidation: Display: Validating Blueprint /Game/BluePrints/Survivors/Survivor1.Survivor1
+[2022.10.08-16.45.59:509][851]LogTemp: Repeating last play command: Selected Viewport
+[2022.10.08-16.45.59:517][851]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.08-16.45.59:517][851]PIE: New page: PIE session: Base_World (8 Oct 2022, 18:45:59)
+[2022.10.08-16.45.59:517][851]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Base_World
+[2022.10.08-16.45.59:520][851]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002560s)
+[2022.10.08-16.45.59:521][851]LogAIModule: Creating AISystem for world Base_World
+[2022.10.08-16.45.59:521][851]LogPlayLevel: PIE: World Init took: (0.000928s)
+[2022.10.08-16.45.59:521][851]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Base_World.Base_World to /Game/UEDPIE_0_Base_World.Base_World (0.003593s)
+[2022.10.08-16.45.59:554][851]LogUObjectHash: Compacting FUObjectHashTables data took   4.46ms
+[2022.10.08-16.45.59:555][851]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2022.10.08-16.45.59:555][851]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.08-16.45.59:555][851]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.08-16.45.59:555][851]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.08-16.45.59:555][851]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.08-16.45.59:555][851]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.08-16.45.59:555][851]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.10.08-16.45.59:555][851]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.08-16.45.59:555][851]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.08-16.45.59:555][851]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.08-16.45.59:556][851]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.08-16.45.59:556][851]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.08-16.45.59:556][851]LogAudioMixer: Display: Initializing audio mixer.
+[2022.10.08-16.45.59:559][851]LogAudioMixer: Display: 0: FrontLeft
+[2022.10.08-16.45.59:559][851]LogAudioMixer: Display: 1: FrontRight
+[2022.10.08-16.45.59:564][851]LogAudioMixer: Display: Using Audio Device Headphones (Soundcore Life Q30 Stereo)
+[2022.10.08-16.45.59:564][851]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.08-16.45.59:564][851]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.08-16.45.59:564][851]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.08-16.45.59:564][851]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.10.08-16.45.59:564][851]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.10.08-16.45.59:564][851]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.10.08-16.45.59:565][851]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.10.08-16.45.59:565][851]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.10.08-16.45.59:565][851]LogInit: FAudioDevice initialized.
+[2022.10.08-16.45.59:565][851]LogAudio: Display: Audio Device (ID: 9) registered with world 'Base_World'.
+[2022.10.08-16.45.59:573][851]LogLoad: Game class is 'GameModeBase'
+[2022.10.08-16.45.59:573][851]LogWorld: Bringing World /Game/UEDPIE_0_Base_World.Base_World up for play (max tick rate 0) at 2022.10.08-17.45.59
+[2022.10.08-16.45.59:574][851]LogWorld: Bringing up level for play took: 0.000596
+[2022.10.08-16.45.59:574][851]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2022.10.08-16.46.00:247][851]PIE: Server logged in
+[2022.10.08-16.46.00:248][851]PIE: Play in editor total start time 0.734 seconds.
+[2022.10.08-16.46.10:959][116]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.08-16.46.10:959][116]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Base_World
+[2022.10.08-16.46.10:961][116]LogWorld: UWorld::CleanupWorld for Base_World, bSessionEnded=true, bCleanupResources=true
+[2022.10.08-16.46.10:979][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.08-16.46.10:991][116]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.08-16.46.11:037][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.08-16.46.11:081][116]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.08-16.46.11:084][116]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.10.08-16.46.11:085][116]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.10.08-16.46.11:087][116]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.08-16.46.11:112][116]LogUObjectHash: Compacting FUObjectHashTables data took   4.66ms
+[2022.10.08-16.46.11:156][117]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2022.10.08-16.46.12:883][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Base_World" FILE="D:/Work/Github/SticksAndStones/SticksAndStones/Content/Base_World.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.08-16.46.12:914][311]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2022.10.08-16.46.12:927][311]LogSavePackage: Moving 'D:/Work/Github/SticksAndStones/SticksAndStones/Saved/Base_WorldA351BA794FE59B99BFB479A6BE7272B6.tmp' to 'D:/Work/Github/SticksAndStones/SticksAndStones/Content/Base_World.umap'
+[2022.10.08-16.46.12:947][311]AssetCheck: New page: Asset Save: Base_World
+[2022.10.08-16.46.12:947][311]LogContentValidation: Display: Validating World /Game/Base_World.Base_World
+[2022.10.08-16.46.14:095][431]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2022.10.08-16.46.14:121][431]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Survivors/Survivor" FILE="D:/Work/Github/SticksAndStones/SticksAndStones/Content/BluePrints/Survivors/Survivor.uasset" SILENT=true
+[2022.10.08-16.46.14:132][431]LogSavePackage: Moving 'D:/Work/Github/SticksAndStones/SticksAndStones/Saved/Survivor97437D0849FEBE047D1CA4936D2D5907.tmp' to 'D:/Work/Github/SticksAndStones/SticksAndStones/Content/BluePrints/Survivors/Survivor.uasset'
+[2022.10.08-16.46.14:143][431]AssetCheck: New page: Asset Save: Survivor
+[2022.10.08-16.46.14:143][431]LogContentValidation: Display: Validating Blueprint /Game/BluePrints/Survivors/Survivor.Survivor
