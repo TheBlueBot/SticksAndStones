@@ -3358,6 +3358,7 @@ Script call stack:
 [2022.10.10-18.04.17:784][144]AssetCheck: New page: Asset Save: Stick_ResourceBP
 [2022.10.10-18.04.17:784][144]LogContentValidation: Display: Validating Blueprint /Game/BluePrints/Resources/Stick_ResourceBP.Stick_ResourceBP
 [2022.10.10-18.09.03:809][800]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+<<<<<<< Updated upstream
 [2022.10.10-19.30.26:544][515]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
 [2022.10.10-19.30.26:585][515]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
 [2022.10.10-19.30.26:585][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
@@ -3870,3 +3871,5 @@ Script call stack:
 [2022.10.10-19.30.31:402][516]LogD3D11RHI: CleanupD3DDevice
 [2022.10.10-19.30.31:404][516]LogExit: Exiting.
 [2022.10.10-19.30.31:410][516]Log file closed, 10/10/22 20:30:31
+=======
+>>>>>>> Stashed changes
